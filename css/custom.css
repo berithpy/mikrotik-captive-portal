@@ -1,0 +1,17 @@
+.showPassword{
+    border:none;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    left: 90%;
+    margin-top: 13px;
+}
+.hidden{
+    display:none;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }

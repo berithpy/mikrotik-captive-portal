@@ -20,14 +20,15 @@
     <div class="ie-fixMinHeight">
         <div class="main">
             <div class="wrap">
-                <h1>You have just logged out!</h1> 
+                <h1>Acabas de cerrar tu session</h1> 
+                <!-- <h1>You have just logged out!</h1>  -->
                 <table>  
-                    <tr><td>Username</td><td>$(username)</td></tr>
-                    <tr><td>IP address</td><td>$(ip)</td></tr>
-                    <tr><td>MAC address</td><td>$(mac)</td></tr>
-                    <tr><td>Session time</td><td>$(uptime)</td></tr>
+                    <tr><td>Usuario</td><td>$(username)</td></tr>
+                    <!-- <tr><td>IP address</td><td>$(ip)</td></tr>
+                    <tr><td>MAC address</td><td>$(mac)</td></tr> -->
+                    <tr><td>Tiempo de session</td><td>$(uptime)</td></tr>
                     $(if session-time-left)
-                    <tr><td>Time left</td><td>$(session-time-left)</td></tr>
+                    <tr><td>Tiempo restante</td><td>$(session-time-left)</td></tr>
                     $(endif)
                     <tr><td>Bytes up / down:</td><td>$(bytes-in-nice) / $(bytes-out-nice)</td></tr>
                 </table>
